@@ -74,7 +74,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="lXd-W5-ShY">
-                        <barButtonItem key="leftBarButtonItem" title="Pause" id="PWC-4l-7VF">
+                        <barButtonItem key="leftBarButtonItem" title="Play/Pause" id="PWC-4l-7VF">
                             <connections>
                                 <action selector="musicBtn:" destination="BYZ-38-t0r" id="Sd0-rA-6m2"/>
                             </connections>

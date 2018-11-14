@@ -51,15 +51,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func musicBtn(_ sender: UIButton) {
-        print("sorry loop = -1")
-        
-//        if musicPlayer.isPlaying {
-//            musicPlayer.pause()
-//            sender.alpha = 0.2
-//        } else{
-//            musicPlayer.play()
-//            sender.alpha = 1.0
-//        }
+
+        if musicPlayer.isPlaying {
+            musicPlayer.pause()
+            //sender.alpha = 0.2
+        } else{
+            musicPlayer.play()
+            //sender.alpha = 1.0
+        }
     }
     
     func setup() {
@@ -128,19 +127,20 @@ class ViewController: UIViewController {
     }
     
     @objc func animode() {
-        UIView.animate(withDuration: 4, animations: {
+        UIView.animate(withDuration: 0.5, animations: {
             self.lambdaLogo.alpha = 0
         }) { (_) in
-            UIView.animate(withDuration: 4, animations: {
+            UIView.animate(withDuration: 0.5, animations: {
                 self.lambdaLogo.alpha = 1
             })
         }
         
         for letter in letters {
             let location = randomLocation()
-            UIView.animate(withDuration: 1) {
+            UIView.animate(withDuration: 4) {
                 var matrix = letter.transform
                 matrix.rotated(by: CGFloat.pi / 1.5)
+                matrix = CGAffineTransform(rotationAngle: CGFloat.pi / 1.3)
                 matrix.tx = location.x
                 matrix.ty = location.y
                 
@@ -154,7 +154,7 @@ class ViewController: UIViewController {
     }
     
     func randomLocation() -> (x: CGFloat, y: CGFloat) {
-        return (CGFloat.random(in: -200...200), CGFloat.random(in: -300...300))
+        return (CGFloat.random(in: -10...100), CGFloat.random(in: -20...200))
     }
     
     var xCoordinates: [CGFloat] = [8, 16, 24, 36, 44, 52]
