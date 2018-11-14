@@ -12,6 +12,8 @@
 		7B5901E2219CC63D00937F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5901E0219CC63D00937F65 /* Main.storyboard */; };
 		7B5901E4219CC64000937F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B5901E3219CC64000937F65 /* Assets.xcassets */; };
 		7B5901E7219CC64000937F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B5901E5219CC64000937F65 /* LaunchScreen.storyboard */; };
+		7B5901EF219CC93000937F65 /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7B5901EE219CC93000937F65 /* music.mp3 */; };
+		7B5901F1219CCFD900937F65 /* Lambda_Logo_Full.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7B5901F0219CCFD900937F65 /* Lambda_Logo_Full.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		7B5901E3219CC64000937F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B5901E6219CC64000937F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B5901E8219CC64000937F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B5901EE219CC93000937F65 /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
+		7B5901F0219CCFD900937F65 /* Lambda_Logo_Full.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Lambda_Logo_Full.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				7B5901E3219CC64000937F65 /* Assets.xcassets */,
 				7B5901E5219CC64000937F65 /* LaunchScreen.storyboard */,
 				7B5901E8219CC64000937F65 /* Info.plist */,
+				7B5901EE219CC93000937F65 /* music.mp3 */,
+				7B5901F0219CCFD900937F65 /* Lambda_Logo_Full.pdf */,
 			);
 			path = "Scatter and Gather";
 			sourceTree = "<group>";
@@ -123,8 +129,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B5901E7219CC64000937F65 /* LaunchScreen.storyboard in Resources */,
+				7B5901EF219CC93000937F65 /* music.mp3 in Resources */,
 				7B5901E4219CC64000937F65 /* Assets.xcassets in Resources */,
 				7B5901E2219CC63D00937F65 /* Main.storyboard in Resources */,
+				7B5901F1219CCFD900937F65 /* Lambda_Logo_Full.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
